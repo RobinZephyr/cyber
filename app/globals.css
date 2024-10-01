@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+div{
+    font-family:"debug"
+  } */
+  /* @font-face {
+    font-family: 'debug';
+    src: url('/fonts/debug/DEBUGFREETRIAL-5b92.woff') format('woff'),
+         url('/fonts/debug/DEBUGFREETRIAL-ba81.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  */
