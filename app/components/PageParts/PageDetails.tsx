@@ -1,7 +1,7 @@
 export default function PageDetails() {
   return (
-    <div className="w-full flex justify-center ">
-      <div className="text-poppins text-center w-[80%] text-white">
+    <div className="w-full flex justify-center py-3 text-md md:text-lg py-5">
+      <div className="text-poppins text-center w-full text-white">
         With attackers employing more complex obfuscation techniques,
         cyberattacks are becoming more sophisticated than ever. Most
         organization’s people, process and technology cannot keep up with
