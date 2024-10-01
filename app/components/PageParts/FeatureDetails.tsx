@@ -34,7 +34,7 @@ export const FeatureDetails = () => {
           <Image
             src={blackBearLogo}
             alt="Black Bear Logo"
-            className="h-14 w-auto"
+            className="h-20 w-auto mt-4"
           />
         </div>
       </div>
