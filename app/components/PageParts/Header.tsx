@@ -6,6 +6,7 @@ import {
   techstacksLogo,
 } from "../../src/index";
 import { logos } from "../../src/constant/HeaderLogos";
+import { Banner } from "./Banner";
 
 export default function Header() {
   return (
@@ -24,20 +25,7 @@ export default function Header() {
       <div className="text-white  py-5 md:py-10 text-center text-xl md:text-3xl  lg:text-5xl font-bold font-poppins">
         Do you want to secure a high-paying job?
       </div>
-
-      <div className="flex justify-center items-center h-[4rem] md:h-auto w-full">
-        <div
-          style={{ textShadow: "2px 2px 4px #000000" }}
-          className="absolute drop-shadow-lg text-amber-500  font-bold text-[20px] md:text-[35px] xmd:text-[45px] lg:text-[60px] xl:text-[75px]  text-center px-5  tracking-tighter   "
-        >
-          LEARN CYBERSECURITY
-        </div>
-        <Image
-          src={cyberBackground}
-          className="w-full h-full "
-          alt="bg"
-        ></Image>
-      </div>
+      <Banner />
     </div>
   );
 }

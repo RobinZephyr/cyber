@@ -1,16 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-div{
-    font-family:"debug"
-  } */
-  /* @font-face {
-    font-family: 'debug';
-    src: url('/fonts/debug/DEBUGFREETRIAL-5b92.woff') format('woff'),
-         url('/fonts/debug/DEBUGFREETRIAL-ba81.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+
+.red-cross {
+  filter: invert(16%) sepia(88%) saturate(7469%) hue-rotate(359deg)
+    brightness(106%) contrast(113%);
 }
 
-  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.gradient {
+  background: linear-gradient(150deg, #f59e0b 0%, #5d3e09 38%, #000000 71%);
+}

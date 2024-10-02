@@ -26,6 +26,19 @@ const config: Config = {
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
+      anton: ["Anton", "sans-serif"],
+    },
+
+    boxShadow: {
+      "3xl": "-1px 0px 13px 1px rgba(0,0,0)",
+    },
+    dropShadow: {
+      "3xl": "4px 2px 2px #000000",
+      "4xl": "3px 2px 0px rgba(0, 0, 0, 1)",
+      glow: [
+        "0 0px 20px rgba(255,255, 255, 0.4)",
+        "0 0px 65px rgba(255, 255,255, 0.2)",
+      ],
     },
   },
   plugins: [],

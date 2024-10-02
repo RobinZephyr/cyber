@@ -6,6 +6,8 @@ import cyberBackground from "../src/images/cybersecurity background.png";
 import featHat from "../src/images/grad_hat.png";
 import featPuzzle from "../src/images/puzzle.png";
 import featBenefit from "../src/images/benefits.png";
+
+import cross from "../src/images/cross.png";
 export {
   innovateLogo,
   blackBearLogo,
@@ -16,4 +18,5 @@ export {
   featHat,
   featPuzzle,
   featBenefit,
+  cross,
 };

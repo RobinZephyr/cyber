@@ -4,7 +4,7 @@ import HomePage from "./components/HomePage";
 import { EventsPage } from "./components/EventsPage";
 export default function Home() {
   return (
-    <div className="border-2 border-white flex-col">
+    <div className=" flex-col">
       <LandingPage />
       <HomePage />
       <EventsPage />
