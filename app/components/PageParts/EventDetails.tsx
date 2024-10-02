@@ -30,9 +30,9 @@ export const EventDetails = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex justify-center px-10 md:px-0 ">
+            <div className="flex justify-cente  w-full px-5 md:px-0 ">
               <div className="flex-col md:flex md:flex-row w-full pt-5 justify-between space-y-4 md:space-y-0 md:space-x-4 ">
-                <div className=" text-gray-500 bg-amber-400 px-2 py-5 text-2xl md:w-64 font-bold text-3xl">
+                <div className=" text-gray-500 bg-amber-400 px-2 py-5 text-xl md:w-64 font-bold md:text-3xl w-full">
                   <div className="flex justify-between">
                     <div className="relative">
                       <Image
@@ -45,9 +45,12 @@ export const EventDetails = () => {
                     <div>{e.newPrice}</div>
                   </div>
                 </div>
-                <div className="w-full flex justify-center md:w-fit">
-                  <a href="https://www.innovatemarketing.co.nz/blackbearacademy">
-                    <div className="text-gray-500 bg-gray-200 rounded-full py-5 px-3 w-56  flex justify-center items-center drop-shadow-glow hover:cursor-pointer">
+                <div className="w-full flex justify-center md:justify-end">
+                  <a
+                    href="https://www.innovatemarketing.co.nz/blackbearacademy"
+                    className="w-full md:w-fit"
+                  >
+                    <div className="text-gray-500 bg-gray-200 rounded-full py-5 px-3 w-full md:w-56  flex justify-center items-center drop-shadow-glow hover:cursor-pointer">
                       <div> I Want This</div>
                     </div>
                   </a>

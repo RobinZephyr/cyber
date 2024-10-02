@@ -39,6 +39,7 @@ const config: Config = {
         "0 0px 20px rgba(255,255, 255, 0.4)",
         "0 0px 65px rgba(255, 255,255, 0.2)",
       ],
+      whiteLine: "2px 0px 0px rgba(0, 0, 0,1 )",
     },
   },
   plugins: [],
