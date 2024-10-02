@@ -128,11 +128,11 @@ export const FormDetails = () => {
           <div className="text-white ">
             What other courses do you want to see in the future?
           </div>
-          <div className="px-4 space-y-2 tracking-wide py-4">
+          <div className="px-2 md:px-4 space-y-2 tracking-normal md:tracking-wide py-4">
             {otherCourse.map((course, index) => (
               <div key={index}>
                 <label
-                  className="hover:cursor-pointer space-x-2 flex"
+                  className="hover:cursor-pointer flex"
                   style={{ background: "none" }}
                 >
                   <input
@@ -141,8 +141,8 @@ export const FormDetails = () => {
                     checked={selectedCourses.includes(course)}
                     onChange={() => handleCheckboxChange(course)}
                   />
-                  <span
-                    className={`w-5 h-5 border-2 border-gray-500 rounded flex items-center justify-center ${
+                  <div
+                    className={`w-[1.5rem] h-[1.5rem]  border-2  border-gray-500 rounded flex items-center justify-center ${
                       selectedCourses.includes(course)
                         ? " text-white"
                         : "bg-transparent"
@@ -151,7 +151,7 @@ export const FormDetails = () => {
                     {selectedCourses.includes(course) && (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-4 h-4"
+                        className="w-4 h-4 "
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -164,8 +164,8 @@ export const FormDetails = () => {
                         />
                       </svg>
                     )}
-                  </span>
-                  <span>{course}</span>
+                  </div>
+                  <div className="pl-2">{course}</div>
                 </label>
               </div>
             ))}
