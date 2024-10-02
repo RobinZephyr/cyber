@@ -12,7 +12,7 @@ export const EventDetails = () => {
           >
             <div className="flex-col">
               <div className="p-1 text-white  font-bold  uppercase   bg-gradient-to-r from-amber-400 from-10%  to-[rgba(255, 40, 145, 0)]">
-                <span className="drop-shadow-4xl tracking-wide text-3xl xmd:text-3xl lg:text-5xl">
+                <span className="drop-shadow-4xl tracking-wide text-3xl xmd:text-3xl lg:text-5xl ">
                   {e.title}
                 </span>
               </div>

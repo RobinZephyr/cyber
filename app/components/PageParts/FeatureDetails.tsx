@@ -15,8 +15,10 @@ export const FeatureDetails = () => {
               <div className="flex justify-center">
                 <Image src={ft.image} className="w-24 h-24" alt={ft.title} />
               </div>
-              <div className="text-center font-extrabold text-xl pt-5 pb-3 tracking-wide">
-                {ft.title}
+              <div className="flex w-full justify-center">
+                <div className="text-center font-extrabold text-xl pt-5 pb-3 tracking-wide w-full w-[15rem] ">
+                  {ft.title}
+                </div>
               </div>
               <div className="flex justify-center">
                 <div className="w-[90%] px-5 lg:px-5 space-y-3">
