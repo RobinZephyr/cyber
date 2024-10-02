@@ -176,8 +176,8 @@ export const FormDetails = () => {
           />
 
           {isSubnitted && (
-            <div className="py-5  text-white italic drop-shadow-whiteLine text-center font-bold text-lg">
-              Form submitted Successfully!
+            <div className="py-5  text-gray-200 italic drop-shadow-whiteLine text-center font-bold text-2xl">
+              Thanks, we received your submission.
             </div>
           )}
         </div>
